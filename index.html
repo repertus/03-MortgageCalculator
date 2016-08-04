@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mortgage Calculator</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/styling.css">
+</head>
+<body>
+	<div class="wrap">
+
+		<header class="main-header">
+
+			<div id="test">
+				<img id="calculator" src="img/Mortgage-calculator.jpg" alt="">
+				<h1 class="name">Mortgage Calculator</h1>
+			</div>
+		</header>
+
+		<div class="container">
+
+			<label for="">Loan Balance ($):</label>
+			<input type="number" name="Loan Balance" id="loanBalance">
+			<br>
+			<label for="">Interest Rate (%):</label>
+			<input type="number" name="Interest Rate" id="interestRate">
+			<br>
+			<label for="">Loan Term (in years):</label><input type="number" name="Loan Term" id="loanTerm">
+			<br>	
+			<label for="">Period (select monthly / bi-monthly):</label>
+			<select name="" id="periodSelection">
+				<option value="12">Monthly</option>
+				<option value="6">Bi-monthly</option>
+			</select>			
+			<br>
+			<button id="buttonPaymentCalculation">Submit</button>
+			<p id="monthlyPaymentOutput"></p>
+		</div>
+
+		
+	</div>
+
+
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="index.js">
+		$("label").css('display', 'inline-block');
+	</script>
+
+	<footer class="main-footer">
+		<span>&copy; Repertus Works</span>
+	</footer>
+</body>
+</html>

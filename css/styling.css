@@ -1,0 +1,91 @@
+/* ============================
+	Base Element Styles
+===============================*/
+body {
+	font-family: sans-serif;
+	margin: 0;
+	background-color: #6495ED;
+
+}
+
+label{
+	display: inline-block;
+	float: left;
+	clear: left;
+	width: 250px;
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+input {
+	display: inline-block;
+	float: left;
+	margin-bottom: 10px;
+}
+
+
+
+/*--- Navigation ---*/
+
+.name {
+	/* Collapses margin on header */
+	margin: 0; 
+	/*text-align: center;*/
+}
+
+
+/*--- Layout Containers ---*/
+.container {
+	/* Limits the page to within 70% */
+	width: 40%; 
+	margin: auto;
+}
+
+.wrap {
+	min-height: calc(100vh - 89px);
+}
+
+
+.main-header {
+	/* Eliminates the padding on header */
+	padding: 1em 0;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.main-footer {
+	text-align: center;
+}
+
+
+#periodSelection {
+	/*display: inline-block;*/
+	/*float: left;*/
+	margin-right: 40px;
+}
+
+#buttonPaymentCalculation {
+	margin-top: 30px;
+
+}
+
+#monthlyPaymentOutput {
+	text-align: center;
+}
+
+#test {
+	/* Limits the page to within 70% */
+	width: 40%; 
+	margin: auto;
+	display: block;
+
+}
+
+
+
+
+
+
+
+
